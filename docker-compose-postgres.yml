@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  postgres-pipeline:
+    hostname: postgres-pipeline
+    container_name: postgres-pipeline
+    image: postgres
+    shm_size: 4gb
+    environment:
+      POSTGRES_PASSWORD: "Postgres2020!"
+    ports:
+      - "5432:5432"
+    volumes:
+      - /postgres:/var/lib/postgresql/data 
+    networks:
+      - pipeline-data-net
+
+networks: 
+  pipeline-data-net:
+    driver: bridge
