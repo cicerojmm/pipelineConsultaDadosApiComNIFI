@@ -21,4 +21,4 @@ Recuperar a listagem de CEP's da base de dados, consutar cada um dos CEP's na AP
 ![alt text](https://github.com/cicerojmm/pipelineConsultaDadosApiComNIFI/blob/master/imagens/fluxo-extracap-nifi.png?raw=true)
 
 ### Fluxo do Grupo de Processamento dos Dados
-![alt text](https://github.com/cicerojmm/pipelineConsultaDadosApiComNIFI/blob/master/images/fluxo-processamento-nifi.png?raw=true)
+![alt text](https://github.com/cicerojmm/pipelineConsultaDadosApiComNIFI/blob/master/imagens/fluxo-processamento-nifi.png?raw=true)
