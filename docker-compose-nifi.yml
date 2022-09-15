@@ -21,6 +21,7 @@ services:
       - NIFI_CLUSTER_NODE_PROTOCOL_PORT=8082
       - NIFI_ZK_CONNECT_STRING=zookeeper-nifi:2181
       - NIFI_ELECTION_MAX_WAIT=1 min
+      - NIFI_SENSITIVE_PROPS_KEY=123456789012
     networks:
       - pipeline-data-net
     volumes:
